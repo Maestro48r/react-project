@@ -13,11 +13,11 @@ import Review from "./pages/Review";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/react-project",
     element: <Layout />,
     loader: Loader,
     children: [
-      {index: true, element: <Home />},
+      { index: true, element: <Home /> },
       { path: "/facts", element: <Facts /> },
       { path: "/beans", element: <Beans /> },
       { path: "/recipies", element: <Recipies /> },
@@ -26,10 +26,8 @@ const router = createBrowserRouter([
       { path: "/bean/:id", element: <BeanPage /> },
       { path: "/review", element: <Review /> },
       { path: "*", element: <NotFound /> },
-    ]
+    ],
   },
-
-
 ]);
 
 export default router;
