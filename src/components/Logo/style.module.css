@@ -1,0 +1,15 @@
+.logo {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #e83a4b;
+  font-weight: 900;
+  font-family: "Lobster";
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.logo img {
+  width: 50%;
+}
