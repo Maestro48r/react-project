@@ -7,7 +7,7 @@ const Nav = () => {
     const [isModal, setIsModal] = useState(true);
     return (
         <nav className={style.container}>
-                <Link to="/react-project//beans">Beans</Link>
+                <Link to="/react-project/beans">Beans</Link>
                 <Link to="/facts">Facts</Link>
                 <Link to="/recipies">Recipies</Link>
                 <Link to="/combinations">Combinations</Link>
